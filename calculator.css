@@ -1,0 +1,42 @@
+*  { 
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+}
+
+
+.container { 
+    display: flex;
+    flex-direction: column;
+   gap: 20px;
+    align-items: center;
+    border-radius: 10px;
+   
+    margin:  200px auto;
+    height: 200px;
+    width: 450px;
+    color: white;
+    background-color: rgb(32, 53, 53);
+}
+
+.btn { 
+    padding: 3px 15px ;
+    margin: 5px;
+    font-size: large;
+    background-color: aqua;
+    border: solid rgb(8, 110, 110) 2px ;
+    border-radius: 5px;
+}
+
+.input_data { 
+    padding: 5px;
+    border: solid rgb(29, 161, 117) 2px;
+    border-radius: 8px;
+}
+
+.input { 
+    display: flex;
+    gap: 20px
+    ;
+}
+
